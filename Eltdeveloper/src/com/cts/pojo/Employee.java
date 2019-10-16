@@ -4,7 +4,6 @@ public class Employee {
 
 	private int empId;
 	private String firstName;
-	
 	private String lastName;
 	private	String emailID;
 	private	String contact;
@@ -20,7 +19,8 @@ public class Employee {
 	private int createdBy;
 	private String lastUpdateOn;
 	private	int lastUpdateBy;
-	public int getEmpId() {
+	public int getEmpId()
+	{
 		return empId;
 	}
 	public void setEmpId(int empId) {
